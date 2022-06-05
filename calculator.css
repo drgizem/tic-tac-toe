@@ -1,0 +1,28 @@
+.hesapMakinesi{
+display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+.operator,
+.num,
+.clear,
+.dot,
+.result {
+    text-align: center;
+    padding: 20px;
+    background-color:beige;
+    margin: 5px;
+    border-radius: 5px;
+}
+.sonuc{
+    text-align: right;
+    padding:20px ;
+    margin: 10px 500px 10px 500px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+}
