@@ -1,0 +1,53 @@
+.firstlinediv,
+.secondlinediv,
+.thirdlinediv {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60px;
+    width: 400px;
+}
+.first,
+.second,
+.third {
+    width: 130px;
+    text-align: center;
+    padding-top: 15px;
+    font-size:20px;
+    background-color: rgb(163, 159, 159);
+    cursor: pointer;
+}
+
+.firstlinediv,
+.secondlinediv{
+    margin-bottom: 6px;
+}
+
+.title{
+    text-align: center;
+    color: rgb(20, 177, 33);
+}
+.info {
+    text-align: center;
+    color: rgb(2, 2, 3)
+}
+.reset{
+    margin-left: 47% ;
+    margin-top: 15px;
+    background-color:rgb(20, 177, 33) ;
+    border: none;
+    border-radius: 2px;
+    width:100px;
+    height: 30px;
+    color: white;
+    cursor:pointer
+}
+.result{
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+    color:rgb(8, 7, 7)
+}
